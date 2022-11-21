@@ -1,0 +1,42 @@
+01. DER produto - tipo de produto;
+02. DER aluno - turma;
+03.Faça uma modelagem do aluguel de um carro, Carro tem codigo, modelo e tipo, e Cliente tem nome,codigo,endereco,telefone;
+04. Faça um DER para uma industria respeitando a descrição abaixo: 
+
+Entidades(tabelas): Peças, Depósitos, Fornecedor, Projeto, Funcionário e Departamento.
+
+Requisitos:
+   
+   Cada Funcionário pode estar alocado a somente um Departamento; 
+   
+   Cada Funcionário pode pertencer a mais de um Projeto;   
+   
+   Um projeto pode utilizar-se de vários Fornecedores e de várias Peças;   
+   
+   Uma Peça pode ser fornecida por vários Fornecedores e atender a vários Projetos;   
+   
+   Um Fornecedor pode atender a vários Projetos e fornecer várias Peças;   
+   
+   Um Depósito pode conter várias Peças;    
+   
+   Deseja-se ter um controle do material utilizado por cada Projeto, identificando inclusive o seu Fornecedor. Gravar as informações
+   de data de Início e Horas Trabalhadas no Projeto.       
+
+Atributos:
+   
+   Peças: Número, Peso e Cor;
+   
+   
+   Depósito: Número e Endereço;
+   
+   
+   Fornecedor: Número e Endereço;
+   
+   
+   Projeto: Número e Orçamento;
+   
+   
+   Funcionário: Número, Salário e Telefone;
+   
+   
+   Departamento: Número e Setor.
