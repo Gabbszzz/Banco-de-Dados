@@ -1,0 +1,10 @@
+Biblioteca
+
+Construa um banco de dados para um sistema de controle e gerenciamento de  empréstimos de livros de uma biblioteca acadêmica conforme as características  abaixo: 
+∙ A biblioteca dispõe de livros, também denominados títulos. Estes possuem  nome, autores e editoras. Cada título pertence a uma área de conhecimento  e possui um código único de identificação. 
+∙ Cada título possui vários exemplares. Cada exemplar possue um código  único de identificação. 
+∙ Cada título pode ter vários autores e um mesmo autor pode ter escrito vários títulos. Um autor possue código, nome, telefone e endereço. 
+∙ As editoras possuem código, nome, telefone e endereço. 
+∙ As áreas de conhecimento possuem código e uma descrição. 
+∙ Usuários, que podem ser alunos, professores ou funcionários, tomam livros  emprestados por uma semana. A data de empréstimo é importante no  processo. Cada usuário possui um código, nome, telefone e endereço. 
+∙ Cada título possui várias palavras-chave e uma palavra-chave pode estar  ligada a vários títulos. Uma palavra-chave possui código e descrição.
