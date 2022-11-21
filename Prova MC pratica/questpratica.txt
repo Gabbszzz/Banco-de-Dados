@@ -1,0 +1,38 @@
+Faça o modelo conceitual e lógico dos cenários abaixo:01. UNIVERSIDADE 
+Considere a seguinte informação sobre a base de dados de uma universidade: 
+ • Os professores têm um número de contribuinte, um nome, uma idade, um posto, e uma especialidade de
+investigação. 
+ • Existem projetos que têm um número, um organismo financiador, uma data de início, uma data de final, e
+um orçamento. 
+ • Os estudantes de pós-graduação têm um número de contribuinte, um nome, uma idade, e um curso (ex.
+mestrado, doutoramento). 
+ • Cada projeto é gerido por um professor (pesquisador principal do projeto).
+ • Cada projeto tem a participação de um ou mais professores.
+ • Os professores podem gerir e/ou trabalhar em vários projetos. 
+ • Cada projeto tem um ou mais estudantes de pós-graduação (conhecidos como os assistentes de pesquisa). 
+ • Os estudantes podem trabalhar em vários projetos com supervisores eventualmente diferentes. 
+ • Sempre que um estudante de pós-graduação trabalha num projeto, terá que existir um professor a
+supervisionar esse trabalho. 
+ • Os departamentos têm um número, um nome, e um escritório principal. 
+ • Os departamentos são liderados por um professor. 
+ • Os professores podem trabalhar num ou mais departamentos. Associada a cada uma destas funções está
+uma percentagem do seu tempo. 
+ • Os estudantes de pós-graduação estão associados a um departamento no qual fazem o seu curso. 
+ • Cada estudante de pós-graduação tem outro estudante mais velho que é o seu aconselhador.
+02. 
+
+COMPANHIA DISCOGRÁFICA 
+• A companhia discográfica decidiu criar uma base de dados com informação sobre os seus músicos bem como
+outra informação da companhia.
+ A informação dada ao projetista a seguinte: 
+• Cada músico tem um número, um nome, uma morada e um número de telefone. Os músicos em início de
+carreira muitas vezes partilham um endereço e, além disso, assume-se que cada endereço só tem um
+telefone. 
+ • Cada instrumento usado nos estúdios tem um nome (ex. guitarra, bateria, etc.) e um código interno.
+ • Cada disco gravado na companhia tem um título, uma data, um formato (ex. CD, MC, K7), e um identificador
+do disco.
+ • Cada música gravada na companhia tem um título e um autor.
+ • Cada músico pode tocar vários instrumentos, e cada instrumento pode ser tocado por vários músicos. 
+ • Cada disco tem certo número de músicas, mas cada música só pode aparecer num disco.
+ • Cada música pode ter a participação de vários músicos, e cada músico pode participar em várias músicas. 
+ • Cada disco tem um músico que é o seu produtor. Os músicos podem produzir vários discos
