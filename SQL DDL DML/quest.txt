@@ -1,0 +1,23 @@
+1. Construa um banco de dados para uma clínica. Nesta clínica, deverão ser cadastrados todos os médicos, além de suas especialidades.
+Mesmo que o médico possua mais de uma especialidade, ele deverá escolher apenas uma delas para trabalhar na clínica. Todos os pacientes
+também deverão ser cadastrados com todos os seus dados. Os dados das
+consultas deverão ser armazenados também no banco de dados: a data
+em que a consulta aconteceu, o médico que atendeu o paciente, bem
+como o diagnóstico feito pelo médico.
+
+
+
+
+2. 
+
+A partir do banco de dados da questão anterior e utilizando a linguagem
+SQL, responda as questões:
+
+
+Altere a tabela médico, adicionando a coluna “nome_conjuge”.
+
+
+Insira, pelo menos, dois registros em cada uma das tabelas. 
+
+
+Delete um registro da tabela especialidade. Obs.: mantenha a integridade referencial.
