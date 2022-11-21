@@ -1,0 +1,14 @@
+01. Enumere as principais diferenças entre o processamento de dados com arquivos convencionais e o processamento de dados com SGBD. 
+02. Descreva alguns fatores que levam alguém a preferir o uso de
+arquivos convencionais ao uso de SGBD. Descreva alguns fatores que levam
+alguém a preferir o uso de SGBD ao uso de arquivos convencionais.
+03. Defina, sem retornar ao capítulo acima, os seguintes conceitos:
+banco de dados, sistema de gerência de banco de dados, modelo de dados,
+modelo conceitual, modelo lógico, modelagem conceitual e projeto lógico. Verifique a definição que você fez contra a apresentada no capítulo.
+04. A definição do fator de bloco de um arquivo faz parte de que
+modelo: do modelo conceitual, do modelo lógico ou do modelo físico? 
+05. A definição do tipo de um dado (numérico, alfanumérico,…) faz
+parte de que modelo: do modelo conceitual, do modelo lógico ou do modelo
+físico? 
+06. Qual a diferença entre a redundância de dados controlada e a
+redundância de dados não controlada? Dê exemplos de cada uma delas
