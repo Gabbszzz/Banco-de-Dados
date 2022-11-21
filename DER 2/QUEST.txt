@@ -1,0 +1,13 @@
+01. DER de uma instituição bancária;
+02. O objetivo é desenvolver um modelo de dados para um hospital veterinário.
+Cada cliente pode possuir um ou vários animais em tratamento. Cada animal pode estar sofrendo de uma ou várias enfermidades. Os casos mais simples são resolvidos, geralmente, por um único veterinário, entretanto podem ocorrer casos em que um animal é atendido por mais de um veterinário.
+03. Considere a descrição de um sistema de venda de passagens aéreas dadaabaixo e desenhe um diagrama ER de acordo com as seguintes informações:
+* Para um passageiro são registrados o número do documento de identidade e
+o seu nome.
+* Um avião é caracterizado por um número de série único e por um modelo.
+* Um assento é uma posição única em um avião, identificada por um código.
+Um assento é da classe econômica ou executiva.
+* Um avião possui vários assentos e pode ser usado em vários vôos.
+* Um vôo é identificado por um número e utiliza: um avião, um piloto, um
+aeroporto de partida e outro de chegada.
+* Um passageiro pode reservar um assento em um vôo
