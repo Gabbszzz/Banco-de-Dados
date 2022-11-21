@@ -1,0 +1,35 @@
+/*1º Questão*/
+SELECT f.primeiroNome, d.nome FROM funcionario as f 
+inner join departamento as d on  f.codigoDepartamento = d.codigo
+where salario > all(select salario from funcionario where codigo 
+                    in(select codigoFuncionarioGerente from departamento));
+                        
+/*2º Questão*/
+
+select nome, primeironome from departamento inner join funcionario 
+on departamento.codigo = funcionario.codigoDepartamento 
+order by departamento.nome, funcionario.primeiroNome; 
+/*3º Questão*/
+
+select nome, min(funcionario.salario) from departamento inner join funcionario
+on departamento.codigo = funcionario.codigoDepartamento group by departamento.nome;
+/*4º Questão*/
+
+select nome, primeironome from departamento inner join funcionario 
+on departamento.codigo = funcionario.codigoDepartamento
+where funcao = 'Supervisor';
+/*5º Questão*/
+
+select nome, sum(funcionario.salario) from departamento inner join funcionario
+on departamento.codigo = funcionario.codigoDepartamento group by departamento.nome;
+/*6º Questão*/
+
+select nome, primeironome from departamento inner join funcionario 
+on departamento.codigoFuncionarioGerente = funcionario.codigo;
+/*7º Questão*/
+
+select nome, primeironome, funcao from departamento inner join funcionario 
+on departamento.codigo = funcionario.codigoDepartamento;
+
+
+Gabrielly Gois

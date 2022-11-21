@@ -1,0 +1,16 @@
+Funcionarios (Codigo, PrimeiroNome,
+SegundoNome, UltimoNome,
+DataNasci, CPF, RG, Endereco, CEP,
+Cidade, Fone, CodigoDepartamento,
+Funcao, Salario) 
+Departamentos (Codigo, Nome,
+Localizacao,
+CodigoFuncionarioGerente)  
+1. Listar nome e sobrenome ordenado por sobrenome.
+2. Listar todos os campos de funcionários ordenados por cidade.
+3. Liste os funcionários que têm salário superior a R$ 1.000,00 ordenados pelo primeiro nome.
+4. Liste a data de nascimento e o primeiro nome dos funcionários ordenados do mais novo para o mais velho.
+5. Liste o total da folha de pagamento.
+6. Liste a quantidade de funcionários desta empresa.
+7. Liste o salário médio pago pela empresa.
+8. Liste os nomes dos funcionários que moram em Recife e que exerçam a função de Telefonista.

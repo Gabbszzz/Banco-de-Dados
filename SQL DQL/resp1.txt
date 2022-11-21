@@ -1,0 +1,19 @@
+/*Listar nome e sobrenome ordenado por sobrenome.*/
+SELECT PrimeiroNome, UltimoNome FROM Funcionarios ORDER BY UltimoNome; 
+/*Listar todos os campos de funcionários ordenados por cidade.*/
+SELECT * FROM Funcionarios ORDER BY Cidade;
+/*Liste os funcionários que têm salário superior a R$ 1.000,00 ordenados pelo primeiro nome.*/
+SELECT * FROM Funcionarios WHERE Salario > 1000 ORDER BY PrimeiroNome;
+/*Liste a data de nascimento e o primeiro nome dos funcionários ordenados do mais novo para o mais velho.*/
+SELECT DataNasci, PrimeiroNome FROM Funcionarios ORDER BY DataNasci DESC;
+/*Liste o total da folha de pagamento.*/
+SELECT SUM(Salario) as F_Pagamento FROM Funcionarios;
+/*Liste a quantidade de funcionários desta empresa.*/
+SELECT COUNT(*) AS T_FUNCINARIOS FROM Funcionarios;
+/*Liste o salário médio pago pela empresa.*/
+SELECT AVG(Salario) AS MedSalario FROM Funcionarios;
+/*Liste os nomes dos funcionários que moram em Recife e que exerçam a função de Telefonista.*/
+SELECT PrimeiroNome FROM Funcionarios WHERE Cidade = 'Recife' AND Funcao = 'Telefonista';
+
+
+Gabrielly Gois

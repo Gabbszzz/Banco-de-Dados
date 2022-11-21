@@ -1,0 +1,8 @@
+Considerando o esquema da atividade 17, desenvolva as consultas necessárias.
+1. Liste o nome e o departamento de todos os funcionários que ganham mais do que algum gerente.
+2. Liste o nome do departamento e do funcionário ordenados por departamento e funcionário.
+3. Liste o menor salário pago pela empresa em cada departamento.
+4. Liste os departamentos dos funcionários que têm a função de supervisor.
+5.  Liste o valor da folha de pagamento de cada departamento (nome).
+6. Liste todos departamentos com seus respectivos gerentes.
+7. Liste o nome, o nome do departamento e a função de todos os funcionários.
