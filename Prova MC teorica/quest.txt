@@ -1,0 +1,8 @@
+01. Quando múltiplos usuários compartilham uma base de dados, é comum que alguns usuários não autorizados não tenham acesso a todas as informações da base de dados. Por exemplo, os dados financeiros são freqüentemente considerados confidenciais e, desse modo, somente pessoas autorizadas devem ter acesso. Que capacidade é essa do SGBD?
+02. Atualmente, o MER é usado principalmente durante o processo de projeto da base de dados, sendo considerado de baixo nível.
+CORRETO
+ERRADO
+Explique sua resposta.
+03. Por exemplo, considere o tipo de entidade DEPENDENTE, relacionado a EMPREGADO, que é usado para representar os dependentes de cada empregado através do relacionamento 1:N. Os atributos de DEPENDENTE são Nome (apenas o primeiro nome do dependente), DataNasc, Sexo e Relação com o empregado (esposa, marido, filho, sogra, etc.). Dois dependentes de empregados distintos podem ter os mesmos valores para os atributos, mesmo assim eles ainda serão entidades distintas. Os dependentes serão identificados como entidades distintas após a determinação da entidade empregado com a qual cada um está relacionado. Que tipo de entidade estamos nos referindo? Explique.
+04.  Por exemplo, para a entidade ALUNO o atributo chave é a Matricula. Às vezes mais de um atributo juntos formam a chave, por exemplo a entidade DEPARTAMENTO, que tem como chaves o nome e o número. Um atributo chave é identificado no modelo ER com o nome sublinhado, assim estamos falando de modelo conceitual ou lógico? Explique.
+05.  Têm a responsabilidade de identificar os dados a serem armazenados na Base de Dados e escolher estruturas apropriadas para representar e armazenar tais dados. Estas tarefas são geralmente executadas antes que a base de dados seja utilizada. Quem é esse profissional?
