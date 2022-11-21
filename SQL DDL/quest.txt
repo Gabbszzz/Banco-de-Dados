@@ -1,0 +1,19 @@
+1° Construa um script DDL para criar uma tabela clientes e adicionar as colunas: id_cliente, nome, idade, dt_nascimento, telefone.
+
+2° Construa um script DDL para criar uma tabela produtos e adicionar as colunas: idProduto, nome, preco, dtFabricacao, dtValidade.
+
+3° Construa um script DDL para alterar o nome das tabelas clientes e produtos para cliente e produto respectivamente.
+
+4° Crie um script para excluir a coluna dtFabricacao da tabela produto.
+
+5° Crie um script para alterar o tipo de dados da coluna preco para decimal.
+
+6° Crie um script para adicionar uma coluna cep na tabela cliente.
+
+7° Crie um script para alterar o nome da coluna id_cliente para idCliente na tabela cliente.
+
+8° Crie um script para alterar o nome da coluna dt_nascimento para dtNascimento na tabela cliente.
+
+9°  Crie um script para visualizar todos os databases de um servidor mysql.
+
+Bom desempenho!
