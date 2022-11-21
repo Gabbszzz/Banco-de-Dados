@@ -1,0 +1,5 @@
+01. O que é Banco de Dados? É o mesmo que SGBD?
+02. Quais as características de um banco de dados relacional.
+03. Cite as diferenças entre dados e informação.
+04. Quais as atribuições de um SGBD?
+05. Fale sobre o MySQL.
